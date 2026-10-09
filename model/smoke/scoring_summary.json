@@ -1,0 +1,22 @@
+{
+  "collapsedEvents": 73,
+  "meanExpectedGain": 0.624214388803008,
+  "meanGainAboveExpected": 0.44673601153420195,
+  "meanObservedGain": 1.07095040033721,
+  "scoringModel": "learned",
+  "sensitivity": {
+    "1.5": {
+      "collapsedEvents": 73,
+      "rawRows": 100
+    },
+    "2.0": {
+      "collapsedEvents": 108,
+      "rawRows": 198
+    },
+    "2.5": {
+      "collapsedEvents": 167,
+      "rawRows": 306
+    }
+  },
+  "trafficDefinition": "supportDistance <= 1.5"
+}
