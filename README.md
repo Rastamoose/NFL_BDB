@@ -1,4 +1,5 @@
-We quantify **hidden off-ball receiver impact** with **Traffic Separation Gain**: the separation a target gains immediately after a teammate creates nearby defensive traffic.
-Using NFL Next Gen Stats player locations, speed, acceleration, and movement direction alongside PFF route and coverage roles, we identify close supporter–defender encounters and measure the target’s separation before and after.
-A lightweight model trained on no-traffic moments estimates expected movement, highlighting unusually effective traffic without claiming a designed rub or causal effect.
-Built for broadcast, the simple rolling yardage stat is fast, visual, and easy to explain during live replays—crediting the unsung receiver who helped open the play without touching the ball.
+When a pass rush approaches from outside the quarterback's body-facing view cone, how long does the quarterback take to turn toward it and move, does a defense's disguise (rushers who looked like non-rushers before the snap, or who reveal their rush late) make that lag longer, and does the lag explain hurries, hits, and sacks?
+We analyzed 8,557 passing plays from 122 games using 10-Hz tracking, PFF roles, game-grouped validation, censored survival analysis, and a Weeks 1–5 to Weeks 6–8 time split.
+New metrics: Unseen Pressure Time (UPT), Reaction Lag (RL), Pocket Movement Over Expected (PMOE), Rush Intent Surprise (RIS), Rush Reveal Time (RRT), and Disguise Drag.
+Headline results: pressured plays had 0.424s more UPT (95% CI 0.394 to 0.448); all new metrics changed pressure AUC by +0.007 (95% CI +0.006 to +0.010); adjusted RIS–RL coefficient -0.007 s/unit (95% CI -0.013 to -0.000).
+Run with python run_all.py; main limitation: shoulder-pad body-facing orientation is not eye gaze, and observational associations cannot establish that disguise caused the outcome.

@@ -1,0 +1,32 @@
+# Football glossary
+
+- **Quarterback (QB):** the offensive player who receives the snap and usually decides where to throw the ball.
+- **Snap:** the moment the center moves the ball backward to start the play.
+- **Pass rush / rusher:** defenders trying to reach the quarterback before he throws.
+- **Pass block / blocker:** offensive players protecting the quarterback from rushers.
+- **Coverage:** defenders assigned to guard potential receivers or areas of the field.
+- **Pocket:** the protected space formed around the quarterback by blockers.
+- **Pressure:** a hurry, hit, or sack credited because a defender disrupted the quarterback.
+- **Hurry:** pressure that forces an earlier or disrupted throw without a hit or sack.
+- **Hit:** a defender legally contacts the quarterback during or just after the throw.
+- **Sack:** the quarterback is tackled behind the line of scrimmage before throwing.
+- **Strip sack:** a sack that also knocks the football loose.
+- **Scramble:** an unplanned quarterback run after the original passing play breaks down.
+- **Throwaway:** an intentional incomplete pass used to avoid a sack, when legally permitted.
+- **Blitz:** a defense sends extra rushers beyond the usual defensive linemen.
+- **Disguise:** defenders initially show one assignment, then reveal a different rush or coverage after the snap.
+- **Coverage shell/type:** the defense's arrangement for guarding receivers; “man” assigns defenders to people, while “zone” assigns areas.
+- **Line of scrimmage (LOS):** the imaginary line through the ball before the snap; neither team may cross early.
+- **Down:** one offensive attempt; the offense usually has four attempts to gain ten yards.
+- **Yards to go:** distance needed to earn a new set of downs.
+- **Play action:** the quarterback fakes a handoff before attempting a pass.
+- **Dropback:** the quarterback's backward movement after the snap to create throwing space.
+- **Personnel:** the mix of position groups on the field, such as running backs, tight ends, and receivers.
+- **Body-facing orientation:** the direction measured by the shoulder-pad sensor; it is not eye direction or gaze.
+- **Closing speed:** how quickly the distance between a defender and quarterback is shrinking.
+- **View cone:** the angular region centered on the quarterback's body-facing direction used here as a visibility proxy.
+- **Right-censored:** the response had not occurred before observation ended, so its exact eventual time is unknown.
+- **Voronoi room:** field area closer to the quarterback than to any other player, clipped to a local radius.
+- **Calibration:** whether predicted probabilities match observed frequencies.
+- **AUC:** how often a classifier ranks a positive example above a negative one; 0.5 is chance and 1.0 is perfect.
+- **Log loss:** probability error that strongly penalizes confident wrong predictions; lower is better.
